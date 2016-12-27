@@ -1,6 +1,6 @@
 # A-visit-to-BOOTSTRAP-An-open-source-JavaScript-framework
 
-In this exercise, I create a "clone" of a facebook profile page. My objective is to re-create the layout, features, and style of the Facebook profile page as closely as possible by following the following specifications:
+In this exercise, I create a "clone" of a facebook profile page. My objective is to re-create the layout, features, and style of the Facebook profile page as closely as possible by following the below specifications:
 
 * A static (fixed to the top of the window) site header with a logo, search bar, and navigation.
 * Cover photo, profile photo, and some navigation buttons.
