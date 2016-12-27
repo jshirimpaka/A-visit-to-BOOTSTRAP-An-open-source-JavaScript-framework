@@ -1,0 +1,291 @@
+<!doctype html>
+<html>
+<head>
+  <title> My Boostrap page</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+   <link href="styles.css" type="text/css" rel="stylesheet" />
+
+   <style>
+   .navbar{
+     background-color:#3b5998;
+   }
+
+   </style>
+</head>
+
+<nav class="navbar navbar-defaut navbar-fixed-top">
+  <div class="container">
+      <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+              <img alt="Brand" src="images/FB-whiteLogo.png" width="30" height="30" >
+            </a>
+
+          </div>
+          <form class="navbar-form navbar-left" role="search">
+            <div class=form-group>
+
+              <input type="text" class="form-control" placeholder="search"> <span id="search" class="glyphicon glyphicon-search" aria-hidden="true"></span>
+              </input>
+
+            <button type="submit" class="btn btn-default">submit</button>
+
+         </div>
+          </form>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"> Shirij0</a></li>
+            <li><a href="#"> Home</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span></a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-comment"></span></a></li>
+              <li><a href="#"><span class="glyphicon glyphicon-globe"></span></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+ <div class="container" id="main">
+   <div class="row">
+     <div class="col-md-9">
+     <div id="cover">
+       <img src="images/coverPict.JPG" alt="ad image" with="900" height="300" id="cover-image">
+       <div class="row" id="cover-overlay">
+         <div class="col-md-3" id="profile-image">
+           <img src="http://placekitten.com/g/200/200" alt="Profile Photo" class="profile-photo">
+         </div>
+
+      <div class="col-md-5">
+            <h1> Shirij0</h1>
+      </div>
+
+      <div class="col-md-4" id="profile-buttons">
+
+           <button type="button" class="btn btn-default btn-sm"> Update Info</button>
+             <div class="btn-group" role="group">
+              <button type="button" class="btn btn-sm btn-default">View Activity Log </button>
+              <button type="button" class="btn btn-sm btn-default"><span class="glyphicon glyphicon-option-horizontal"></span></button>
+        </div>
+    </div>
+  </div>
+
+      <!--Sub nav-->
+      <div class="row" id="extra-links">
+        <div class="col-md-6 col-md-offset-3">
+          <div class="btn-group btn-group-justified" role="group" aria-label="...">
+            <a type="button" class="btn btn-default"> Timeline</a>
+            <a id="about" type="button" class="btn btn-default"> About</a>
+            <a id="friends" type="button" class="btn btn-default"> Friends</a>
+            <a id="photos" type="button" class="btn btn-default"> Photos</a>
+            <a id="more" type="button" class="btn btn-default last-button">More<span class="caret"></span></a>
+
+          </div>
+        </div>
+      </div>
+   </div>
+
+   <div class="row" id="main-content">
+     <div class="col-md-4">
+       <div id="info" class="border-radius">
+         <h2><span class="glyphicon glyphicon-globe"></span>Intro</h2>
+          <h6> Making the World more connected</h6>
+
+            <ul id="myInfo">
+
+              <li > <span class="glyphicon glyphicon-folder-open"></span> Works at<a href="https://wustl.edu/"> Washington University</a></li>
+              <li > <span class="glyphicon glyphicon-education">Studies at <a  href="https://wustl.edu/"> Washington University</a></li>
+              <li > <span class="glyphicon glyphicon-home"></span> Lives in <a  href="https://en.wikipedia.org/wiki/St._Louis"> St. Louis, MO</a></li> </li>
+              <li > <span class="glyphicon glyphicon-map-marker"></span> From <a  href="https://www.google.com/earth/"> Earth, Planet</a></li> </li>
+             </ul>
+             <i class="fa fa-rss" aria-hidden="true"></i>
+
+       </div>
+
+
+   </div>
+
+   <div class="col-md-8">
+     <div id="new-post" class="border-radius">
+       <div class="btn-group" role="group" aria-label="...">
+
+         <a type="button">
+           <img id="imgStatus"
+             src="images/statusPict.PNG" alt="lifeEvent image" with="30" height="30">
+          </img>Status</a>
+
+        <a type="button" >
+
+          <img id="imgPhoto"
+            src="images/photoImg.PNG" alt="lifeEvent image" with="30" height="30">
+          </img>
+          Photo/Video </a>
+
+          <a type="button">
+              <img id="imgLife"
+                 src="images/lifeEventImg.PNG" alt="lifeEvent image" with="30" height="30">
+              </img>
+              Life Event</a>
+
+       </div>
+       <div id="post-form">
+       <img src="http://placekitten.com/g/40/40" alt="profile thumbnail" class="profile-thumbnail" border-radius/>
+       <form>
+         <div class="form-group">
+           <textarea id="status" placeholder="what's on your mind"></textarea>
+
+     </div>
+   </form>
+
+ </div>
+
+
+
+ <div id="post-buttons">
+ <a>
+
+ <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown" >
+   <span class="glyphicon glyphicon-user"></span>
+   Friends<span class="caret"></span></button>
+</a>
+ <a type="button" class="btn btn-primary " href="#">Post</a>
+
+  </div>
+
+  </div>
+
+  </div>
+
+  <!--post-->
+
+  <div class="col-md-8">
+    <div id="post">
+       <h5> <a href="#">Mario Rambolt</a>
+      <span id="play" class="glyphicon glyphicon-play"></span>
+       <a href="#"> Shirij0</a> </h5>
+        Joyeux anniversaire cher Jean! Bisous de France!!
+       <div id="react">
+        <a type="button" class="btn btn-default btn-xs" href="#"><span class="glyphicon glyphicon-thumbs-up"></span>Like</a>
+        <a type="button" class="btn btn-default btn-xs" href="#"><span class="glyphicon glyphicon-comment"></span></span>Comment</a>
+
+    </div>
+
+ </div>
+
+ </div>
+ <!--post end-->
+ <!--comment-->
+ <div class="col-md-8">
+ <div id="comment">
+ <img src="http://placekitten.com/g/40/40" alt="profile thumbnail" class="profile-thumbnail" border-radius/>
+ <form>
+   <div class="form-group">
+     <textarea id="status" placeholder="write a comment"></textarea>
+ </div>
+ </form>
+
+
+ </div>
+ </div>
+ <!--comment end-->
+ <!--post-->
+
+ <div class="col-md-8">
+   <div id="post2">
+      <h5> <a href="#">Gisele Irambona</a>
+     <span id="play" class="glyphicon glyphicon-play"></span>
+      <a href="#"> Shirij0</a> </h5>
+       Isabukuru Nziza!!
+      <div id="react">
+       <a type="button" class="btn btn-default btn-xs" href="#"><span class="glyphicon glyphicon-thumbs-up"></span>Like</a>
+       <a type="button" class="btn btn-default btn-xs" href="#"><span class="glyphicon glyphicon-comment"></span></span>Comment</a>
+
+   </div>
+
+</div>
+
+</div>
+<!--post end-->
+<!--comment2-->
+<div class="col-md-8">
+<div id="comment2">
+<img src="http://placekitten.com/g/40/40" alt="profile thumbnail" class="profile-thumbnail" border-radius/>
+<form>
+  <div class="form-group">
+    <textarea id="status" placeholder="write a comment"></textarea>
+</div>
+</form>
+
+
+</div>
+</div>
+<!--comment2 end-->
+
+<!--post-->
+
+<div class="col-md-8">
+  <div id="post3">
+     <h5> <a href="#">Joy Benilde</a>
+    <span id="play" class="glyphicon glyphicon-play"></span>
+     <a href="#"> Shiri0</a> </h5>
+      Happy Birthday, Jean!
+     <div id="react">
+      <a type="button" class="btn btn-default btn-xs" href="#"><span class="glyphicon glyphicon-thumbs-up"></span>Like</a>
+      <a type="button" class="btn btn-default btn-xs" href="#"><span class="glyphicon glyphicon-comment"></span></span>Comment</a>
+
+  </div>
+
+</div>
+
+</div>
+<!--post end-->
+
+ </div>
+
+
+ <!--comment3-->
+ <div class="col-md-8">
+ <div id="comment3">
+ <img src="http://placekitten.com/g/40/40" alt="profile thumbnail" class="profile-thumbnail" border-radius/>
+ <form>
+   <div class="form-group">
+     <textarea id="status" placeholder="write a comment"></textarea>
+</div>
+</form>
+
+
+</div>
+</div>
+<!--comment3 end-->
+
+<!--advertizement-->
+
+<div class="col-md-5">
+  <div id="ads">
+    <a id="adLink"
+    href="https://www.facebook.com/ads/about/?campaign_id=366925476690229&placement=egot&extra_1=not-admgr-user"> Sponsored </a>
+    <img id="imgPict"
+    src="images/adpict.PNG" alt="ad image" with="100" height="100">
+  </img>
+  <a href="https://www.att.com/cellphones/lg/g-vista.html#sku=undefined">Free LG G Vista 2<br>
+     att.com</a>
+     <br>Big-screen smartphone with<br>13MP camera for amazing<br>pictures-an AT&T exclusive
+
+     <img id="imgPict2"
+     src="images/adpict2.PNG" alt="ad image" with="100" height="100">
+   </img>
+
+   <a href="http://www.stangelawfirm.com/Family-Law-Matters/Family-Law-Glossary/Family-Law-in-St-Louis-Missouri.shtml?www.stangelawfirm.com">Strange Law Firm,PC:St. ...<br>
+      stangelawfirm.com</a>
+      <br>Collaborative Divorce Versus<br>Uncontested Divorce: Lots of<br>individauls want a divorce<br>that...
+
+</div>
+
+</div>
+<!--advertizement end-->
+
+
+
+ </div>
+ </div>
+</body>
+</html>
